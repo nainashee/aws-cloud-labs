@@ -20,10 +20,14 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
+      - name: Debug - List files
+        run: ls -la
+        working-directory: terraform-labs/vpc-lab
+
       - name: Terraform Init
         run: terraform init
-        working-directory: ./vpc-lab
+        working-directory: terraform-labs/vpc-lab
 
       - name: Terraform Plan
         run: terraform plan
-        working-directory: ./vpc-lab
+        working-directory: terraform-labs/vpc-lab

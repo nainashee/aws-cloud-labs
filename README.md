@@ -27,6 +27,7 @@ A portfolio of hands-on AWS labs built from scratch — no guided tutorials, no 
 | [RDS Lab](./rds-lab/) | Managed MySQL, private subnet, DB subnet groups, SG chaining | ✅ Complete |
 | [Terraform Labs](./terraform-labs/) | IaC, variables, outputs, VPC provisioning, drift detection | ✅ Complete |
 | [GitHub Actions CI/CD](./terraform-labs/) | CI/CD pipeline, automated terraform plan, GitHub Secrets, workflow triggers | ✅ Complete |
+| [Docker Lab](./docker-lab/) | Images, containers, port mapping, container lifecycle | ✅ Complete |
 
 ---
 
@@ -40,6 +41,7 @@ A portfolio of hands-on AWS labs built from scratch — no guided tutorials, no 
 - **Automation:** Python/boto3, EC2 automation scripts, waiters
 - **Infrastructure as Code:** Terraform — variables, outputs, state management, drift detection
 - **CI/CD:** GitHub Actions — automated Terraform validation on every push, secrets management
+- **Containers:** Docker — images, containers, port mapping, container lifecycle
 - **Security:** IAM least privilege, role-based authentication, no hardcoded credentials
 
 ---
@@ -63,7 +65,8 @@ An automated monitoring pipeline built entirely with Python/boto3 and AWS servic
 
 - ✅ Phase 1 (Weeks 1–8): Linux, AWS Core Services, Capstone
 - ✅ Phase 2 (Weeks 9–12): Terraform, IaC, GitHub Actions, CI/CD
-- ⏳ Phase 3 (Weeks 17–22): Docker, ECS, Flagship Capstone
+- 🔄 Phase 3 (Weeks 13–16): Docker, ECS
+- ⏳ Phase 3 continuing (Weeks 17–22): Flagship Capstone
 - ⏳ Phase 4 (Weeks 23–24): Interview Preparation
 
 ---

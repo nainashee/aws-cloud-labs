@@ -26,6 +26,7 @@ A portfolio of hands-on AWS labs built from scratch — no guided tutorials, no 
 | [CloudWatch Lab](./cloudwatch-lab/) | Metrics, alarms, SNS notifications, alarm lifecycle | ✅ Complete |
 | [RDS Lab](./rds-lab/) | Managed MySQL, private subnet, DB subnet groups, SG chaining | ✅ Complete |
 | [Terraform Labs](./terraform-labs/) | IaC, variables, outputs, VPC provisioning, drift detection | ✅ Complete |
+| [GitHub Actions CI/CD](./terraform-labs/) | CI/CD pipeline, automated terraform plan, GitHub Secrets, workflow triggers | ✅ Complete |
 
 ---
 
@@ -38,6 +39,7 @@ A portfolio of hands-on AWS labs built from scratch — no guided tutorials, no 
 - **Monitoring:** CloudWatch metrics, alarms, SNS alerting, alarm lifecycle states
 - **Automation:** Python/boto3, EC2 automation scripts, waiters
 - **Infrastructure as Code:** Terraform — variables, outputs, state management, drift detection
+- **CI/CD:** GitHub Actions — automated Terraform validation on every push, secrets management
 - **Security:** IAM least privilege, role-based authentication, no hardcoded credentials
 
 ---
@@ -57,11 +59,10 @@ An automated monitoring pipeline built entirely with Python/boto3 and AWS servic
 
 ## Learning Plan
 
-**24-week structured program (currently Week 10):**
+**24-week structured program (currently Week 11):**
 
 - ✅ Phase 1 (Weeks 1–8): Linux, AWS Core Services, Capstone
-- ✅ Phase 2 started (Weeks 9–12): Terraform & IaC
-- 🔄 Phase 2 continuing: GitHub Actions, CI/CD
+- ✅ Phase 2 (Weeks 9–12): Terraform, IaC, GitHub Actions, CI/CD
 - ⏳ Phase 3 (Weeks 17–22): Docker, ECS, Flagship Capstone
 - ⏳ Phase 4 (Weeks 23–24): Interview Preparation
 

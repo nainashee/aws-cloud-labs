@@ -28,6 +28,7 @@ A portfolio of hands-on AWS labs built from scratch — no guided tutorials, no 
 | [Terraform Labs](./terraform-labs/) | IaC, variables, outputs, VPC provisioning, drift detection | ✅ Complete |
 | [GitHub Actions CI/CD](./terraform-labs/) | CI/CD pipeline, automated terraform plan, GitHub Secrets, workflow triggers | ✅ Complete |
 | [Docker Lab](./docker-lab/) | Images, containers, port mapping, container lifecycle | ✅ Complete |
+| [Dockerfile Lab](./docker-lab/dockerfile-lab/) | Custom image, Dockerfile, COPY, build, tag | ✅ Complete |
 
 ---
 
@@ -41,7 +42,7 @@ A portfolio of hands-on AWS labs built from scratch — no guided tutorials, no 
 - **Automation:** Python/boto3, EC2 automation scripts, waiters
 - **Infrastructure as Code:** Terraform — variables, outputs, state management, drift detection
 - **CI/CD:** GitHub Actions — automated Terraform validation on every push, secrets management
-- **Containers:** Docker — images, containers, port mapping, container lifecycle
+- **Containers:** Docker — images, containers, port mapping, Dockerfile, custom image builds
 - **Security:** IAM least privilege, role-based authentication, no hardcoded credentials
 
 ---
@@ -61,7 +62,7 @@ An automated monitoring pipeline built entirely with Python/boto3 and AWS servic
 
 ## Learning Plan
 
-**24-week structured program (currently Week 11):**
+**24-week structured program (currently Week 12):**
 
 - ✅ Phase 1 (Weeks 1–8): Linux, AWS Core Services, Capstone
 - ✅ Phase 2 (Weeks 9–12): Terraform, IaC, GitHub Actions, CI/CD

@@ -1,4 +1,4 @@
-# ECS Lab — Running Docker Containers on AWS
+﻿# ECS Lab — Running Docker Containers on AWS
 
 ## Overview
 
@@ -8,7 +8,7 @@ Deployed a custom Docker container to AWS using ECS (Elastic Container Service) 
 
 ## Architecture Diagram
 
-![ECS Architecture](./ecs-architecture.svg)
+![ECS Architecture](./ecs-architecture.png)
 
 ---
 
@@ -133,3 +133,4 @@ docker push 513410254247.dkr.ecr.us-west-1.amazonaws.com/my-webpage:latest
 - Task Definition = what to run; Service = keep it running
 - Fargate removes the need to manage EC2 instances for containers
 - Security groups apply to ECS tasks just like EC2 — always check inbound rules if unreachable
+
